@@ -1,0 +1,14 @@
+operadores relacionales:
+> mayor que 
+< menor que 
+>= mayor o igual 
+<= menor o igual 
+!= distinto 
+== igual a 
+
+ejemplo : a = 10 , b = 20 y c = 30 
+a +  b > c  -> false
+a - b < c -> true
+a - b ==  c -> Falso
+a * b != c -> true 
+

@@ -1,0 +1,16 @@
+Prioridad de Operadores logicos :
+1)not
+2) and
+3) or
+Prioridad de Operadores en Gral : 
+1) ()
+2) * ,/ , Mod , Not
+3) + , - , And
+4) > , < , >= , <= ,!= ,== ,Or
+
+ejemplo : a = 10 , b = 20 y c = 30 
+(a < b) && (b < c )
+  true	&&  true
+       true	
+
+

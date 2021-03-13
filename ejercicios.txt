@@ -1,0 +1,19 @@
+ejercicios :
+
+ejemplo 2 : a = 10 , b = 12 , c = 13  y d = 10 
+ejercicio 1 :
+((a > b) || (a < c))  && ((a == c) || (a >= b))
+    (F    ||   V  )   && (  F   ||  F   )
+	   V	      &&     F		      
+ejercicio 2 :
+((a >= b) || (a < d)) &&  ((a >= d) && (c > d))
+    (F    ||   F  )   &&    (  V   &&    V)
+          F           &&            V
+		      F
+ejercicio 3:
+not ! no 
+
+!(a == c) && (c > b)
+  !( F  ) && ( V )  
+     V    &&   V
+           V		
