@@ -16,12 +16,12 @@ int main()
     {
         printf("El cubo del numero %i es %i\n ",i, cubo(i)   );
     }
-    printf("La primera llamada al subalgoritmo \n ");
-    mostrarMensajeError();
-    printf("La segunda llamada al subalgoritmo \n");
-    mostrarMensajeError();
-    printf("La tercera llamada al subalgoritmo \n");
-    mostrarMensajeError();
+    printf("La primera llamada al subalgoritmo con el numero 12\n ");
+    mostrarMensajeError(12);
+    printf("La segunda llamada al subalgoritmo con el numero 7852\n");
+    mostrarMensajeError(7852);
+    printf("La tercera llamada al subalgoritmo con el numero 8635\n");
+    mostrarMensajeError(8635);
     return 0;
 }
 //definicion de la funcion
@@ -44,16 +44,14 @@ void mostrarMensajeError(int codigoDeError)
         printf("se agoto la memoria\n");
         break;
     case 9641 :
-        printf("se agoto la memoria\n");
+        printf("se quedo sin conexion a internet\n");
         break;
     case 8635 :
-        printf("se agoto la memoria\n");
+        printf(" se lleno es espacio en el disco\n");
         break;
     default:
         printf("el codigo de error %i no es un codigo de error conocido , comuniquese de inmediato con soporte tecnico \n",codigoDeError);
-
     }
-
 }
 
 /**los codigos de error del sistema son los siguientes:
